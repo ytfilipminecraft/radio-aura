@@ -1,7 +1,7 @@
 const playlist = [
   {
-    title: "AI Moderátor",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    title: "AI moderátor – Rádio Aura",
+    url: "assets/audio/moderator-1.mp3"
   },
   {
     title: "Hudobný Mix 1",
@@ -38,8 +38,7 @@ function playTrack(index) {
   audio.play();
 
   status.textContent = "🔴 Rádio Aura vysiela";
-  nowPlaying.textContent =
-    "Teraz hrá: " + playlist[index].title;
+  nowPlaying.textContent = "Teraz hrá: " + playlist[index].title;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
