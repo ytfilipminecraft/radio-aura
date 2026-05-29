@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #06152d;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #4da3ff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+button {
+    background: #1976ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #0f5fd4;
+}
+
+.player {
+    margin-top: 40px;
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+}
