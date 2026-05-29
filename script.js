@@ -1,6 +1,6 @@
 const playlist = [
   {
-    title: "AI moderátor – Rádio Aura",
+    title: "AI Moderátor",
     url: "assets/audio/moderator-1.mp3"
   },
   {
@@ -8,8 +8,24 @@ const playlist = [
     url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
   },
   {
+    title: "AI Moderátor",
+    url: "assets/audio/moderator-2.mp3"
+  },
+  {
     title: "Hudobný Mix 2",
     url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+  },
+  {
+    title: "AI Moderátor",
+    url: "assets/audio/moderator-3.mp3"
+  },
+  {
+    title: "Hudobný Mix 3",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+  },
+  {
+    title: "AI Moderátor",
+    url: "assets/audio/moderator-4.mp3"
   }
 ];
 
