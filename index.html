@@ -2,23 +2,52 @@
 <html lang="sk">
 <head>
   <meta charset="UTF-8">
-  <title>Rádio Aura</title>
+  <title>Rádio Aura – hudba budúcnosti</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="hero">
-    <h1>Rádio Aura</h1>
-    <h2>Hudba budúcnosti.</h2>
-    <p>AI moderované rádio s mixom hudby, správ, počasia a zaujímavostí.</p>
 
-    <button onclick="startRadio()">▶ Spustiť Rádio Aura</button>
+<header>
+  <div class="logo">Rádio Aura</div>
+  <nav>
+    <a href="#live">Naživo</a>
+    <a href="#program">Program</a>
+    <a href="#about">O rádiu</a>
+  </nav>
+</header>
 
-    <div class="player">
-      <p id="status">Rádio je pripravené.</p>
-      <audio id="audio" controls></audio>
-    </div>
-  </main>
+<section class="hero" id="live">
+  <p class="tag">AI rádio novej generácie</p>
+  <h1>Rádio Aura</h1>
+  <h2>Hudba budúcnosti.</h2>
+  <p class="desc">Mix hudby, AI moderátor, správy, počasie, doprava a zaujímavosti.</p>
 
-  <script src="script.js"></script>
+  <button onclick="startRadio()">▶ Spustiť rádio</button>
+  <button onclick="nextTrack()" class="secondary">⏭ Ďalší vstup</button>
+
+  <div class="player-card">
+    <p id="status">Rádio je pripravené.</p>
+    <audio id="audio" controls></audio>
+    <p id="nowPlaying">Teraz hrá: —</p>
+  </div>
+</section>
+
+<section class="section" id="program">
+  <h2>Program rádia</h2>
+  <div class="grid">
+    <div class="card"><b>06:00 – 10:00</b><br>Ranná Aura</div>
+    <div class="card"><b>10:00 – 14:00</b><br>Denný Mix</div>
+    <div class="card"><b>14:00 – 18:00</b><br>Popoludnie s Aurou</div>
+    <div class="card"><b>18:00 – 22:00</b><br>Večerná Aura</div>
+    <div class="card"><b>22:00 – 06:00</b><br>Nočná Aura</div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>O rádiu</h2>
+  <p>Rádio Aura je moderný AI webový projekt. Prináša hudbu, moderované vstupy, zaujímavosti a atmosféru rádia budúcnosti.</p>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
